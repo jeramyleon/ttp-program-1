@@ -1,1 +1,33 @@
-l
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0cd36f;
+    font-family:'Courier New', Courier, monospace;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #10d78e;
+}
+
+
